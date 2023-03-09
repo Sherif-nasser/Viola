@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include viola *.css
+recursive-include viola *.csv
+recursive-include viola *.html
+recursive-include viola *.ico
+recursive-include viola *.js
+recursive-include viola *.json
+recursive-include viola *.md
+recursive-include viola *.png
+recursive-include viola *.py
+recursive-include viola *.svg
+recursive-include viola *.txt
+recursive-exclude viola *.pyc
